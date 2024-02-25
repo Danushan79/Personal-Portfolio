@@ -1,10 +1,14 @@
+import AboutUs from "../organisms/AboutUs";
 import HomeHero from "../organisms/HomeHero";
+import MyWorks from "../organisms/Projects";
 
 export default function HomeTemplate() {
   return (
-    <main className="bg-black w-screen h-screen font-mono">
-      <div className="flex  w-full">
+    <main className="font-montserrat">
+      <div className="flex  w-full flex-col">
         <HomeHero />
+        <AboutUs />
+        <MyWorks />
       </div>
     </main>
   );
