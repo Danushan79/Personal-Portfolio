@@ -5,7 +5,7 @@ import MyWorks from "../organisms/Projects";
 export default function HomeTemplate() {
   return (
     <main className="font-montserrat">
-      <div className="flex  w-full flex-col">
+      <div className="flex  w-full flex-col scroll-container">
         <HomeHero />
         <AboutUs />
         <MyWorks />

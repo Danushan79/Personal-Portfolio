@@ -11,6 +11,7 @@ export default {
       colors: {
         "regal-blue": "#243c5a",
         gold: "#FFD700",
+        lightBlue: "#8a84ba",
       },
       backgroundImage: {
         developerImage: "url('/src/assets/pic.png')",
@@ -20,9 +21,10 @@ export default {
       backgroundColor: {
         primary: "#4a044e",
         inageBg: "#6d1271",
+        hero: "#42174a",
       },
       height: {
-        500: "700px",
+        800: "900px",
       },
       borderRadius: {
         image: "73% 27% 72% 28% / 37% 55% 45% 63% ",

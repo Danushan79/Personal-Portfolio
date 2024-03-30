@@ -3,3 +3,12 @@
 @tailwind utilities;
 
 /* Classic Blue, Turquoise, and Gold */
+
+.scroll-container {
+    overflow-y: scroll !important;
+    scroll-snap-type: y mandatory !important;
+}
+
+.section {
+    scroll-snap-align: center !important;
+}
