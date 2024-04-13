@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <div className=" section container mx-auto  w-full px-20 text-black text-xl min-h-screen py-32">
+    <div className="container mx-auto border-b-2 w-full md:px-20 px-8 text-black text-xl min-h-screen md:py-32 py-16">
       <h1 className="uppercase text-center text-4xl pb-12 font-bold">
         About Me
       </h1>

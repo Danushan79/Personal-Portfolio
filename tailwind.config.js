@@ -12,9 +12,10 @@ export default {
         "regal-blue": "#243c5a",
         gold: "#FFD700",
         lightBlue: "#8a84ba",
+        hero: "#42174a",
       },
       backgroundImage: {
-        developerImage: "url('/src/assets/pic.png')",
+        developerImage: "url('/pic.png')",
         custom:
           "linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(116,1,122,1) 100%)",
       },
@@ -25,6 +26,13 @@ export default {
       },
       height: {
         800: "900px",
+        300: "300px",
+      },
+      minHeight: {
+        300: "300px",
+      },
+      width: {
+        231: "231px",
       },
       borderRadius: {
         image: "73% 27% 72% 28% / 37% 55% 45% 63% ",

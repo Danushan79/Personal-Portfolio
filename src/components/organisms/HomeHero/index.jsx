@@ -2,22 +2,25 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function HomeHero() {
   return (
-    <div className=" section bg-hero  w-full min-h-screen">
-      <div className="flex gap-x-2 justify-center items-center h-screen">
-        <div className="w-2/5 flex justify-end me-20">
+    <div className="bg-hero  w-full min-h-screen">
+      <div className="flex flex-col md:flex-row justify-center items-center h-screen">
+        <div className="w-full md:w-2/6 lg:w-1/3 xl:w-2/5 flex justify-center md:justify-end">
           <div
-            className={`rounded-3xl border-2 w-80 h-96 outline-white bg-developerImage bg-cover bg-no-repeat bg-inageBg`}
-          ></div>
+            className={`rounded-3xl  border-2 w-231 h-300 bg-bottom outline-white  bg-inageBg  bg-contain bg-developerImage  bg-no-repeat`}
+          >
+            <div className="absolute "></div>
+          </div>
         </div>
-        <div className="w-3/5 ms-20 text-white font-bold text-start">
-          <p className="text-5xl leading-relaxed ">
-            <span className="text-gold">Hi, </span>I'm Danushan Kanagasingam
+        <div className="w-full p-4 md:w-4/6 lg:w-2/3 xl:w-3/5 lg:ms-12 xl:ms-20  md:ms-4 text-white font-bold text-start">
+          <p className="text-4xl md:text-4xl  md:leading-relaxed flex flex-col md:flex-row text-center">
+            <span className="text-gold pt-4">Hi, </span>
+            <span className="pt-4 md:ps-4">Danushan Kanagasingam</span>
           </p>
-          <p className="text-4xl leading-relaxed">
-            Software Engineer{" "}
-            <span className="text-3xl text-lightBlue">
+          <p className="text-3xl h-36 xl:h-28 md:text-4xl md:p-0 flex flex-col xl:flex-row items-center leading-relaxed text-center">
+            <span className="h-12">Software Engineer</span>
+            <span className="text-3xl xl:ps-4  text-lightBlue">
               <Typewriter
-                words={[" Back-End (Springboot)", " Front-End (React)"]}
+                words={[" Back-End (Spring Boot) ", " Front-End (React)"]}
                 loop={0}
                 cursor
                 cursorStyle="|"
