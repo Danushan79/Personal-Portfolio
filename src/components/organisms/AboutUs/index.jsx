@@ -13,11 +13,13 @@ export default function AboutUs() {
           ( Spring Boot), I am very strong at problem solving and crictical
           thinking to solve the problems. Then, I stepped into the Front-End
           world with self-learning, I gained the basic kowledge and then crafted
-          a website from scratched to live product. <br /> As a lifelong
-          learner, I am constantly seeking out opportunities to expand my
-          knowledge and stay abreast of the latest technologies and trends in
-          the field. I believe that continuous learning is essential for
-          personal and professional growth.
+          a website from scratched to live product. <br />
+        </p>
+        <p className="font-normal py-5">
+          As a lifelong learner, I am constantly seeking out opportunities to
+          expand my knowledge and stay abreast of the latest technologies and
+          trends in the field. I believe that continuous learning is essential
+          for personal and professional growth.
         </p>
       </div>
     </div>
