@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Classic Blue, Turquoise, and Gold */
+
+/* .scroll-container {
+    overflow-y: scroll !important;
+    scroll-snap-type: y mandatory !important;
+}
+
+.section {
+    scroll-snap-align: center !important;
+} */
+
+.project-overlay {
+  height: 0;
+  transition: height ease-out 100ms;
+}
+.project-overlay-text {
+  opacity: 0;
+
+}
+.project:hover > .project-overlay {
+  height: 300px;
+  /* z-index: 100; */
+  transition: height ease-in-out 200ms;
+}
+.project:hover > .project-overlay-text {
+  opacity: 1;
+  transition: opacity ease-in-out 200ms;
+}
+
+.overlay-transition {
+  transition: height ease-in-out 200ms;
+}
+
+/* .background-image-size {
+  width: 60%;
+  height: 300px;
+  background-position: bottom;
+} */
