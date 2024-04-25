@@ -1,3 +1,12 @@
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
+import {
+  faEnvelope,
+  faExclamationTriangle,
+  faMailReply,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Typewriter } from "react-simple-typewriter";
 
 export default function HomeHero() {
@@ -30,6 +39,46 @@ export default function HomeHero() {
               />
             </span>
           </p>
+          <div>
+            <ul className="flex gap-12 text-gold justify-center mt-8 md:justify-start">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/danushan-kanagasingam/"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                    }}
+                    icon={faLinkedinIn}
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Danushan79" target="_blank">
+                  <FontAwesomeIcon
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                    }}
+                    icon={faGithub}
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="mailto:danushan750@gmail.com" target="_blank">
+                  <FontAwesomeIcon
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                    }}
+                    icon={faEnvelope}
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
